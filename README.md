@@ -4,8 +4,6 @@
 
 **基于 FFmpeg 的桌面视频处理工具**
 
-拖进文件 → 点一个大按钮 → 拿到结果。不用记参数,不用敲命令行。
-
 [![Tauri](https://img.shields.io/badge/Tauri-v2-24C8DB?logo=tauri&logoColor=white)](https://tauri.app)
 [![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)](https://react.dev)
 [![Rust](https://img.shields.io/badge/Rust-stable-000000?logo=rust&logoColor=white)](https://www.rust-lang.org)
