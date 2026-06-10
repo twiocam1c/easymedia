@@ -1,0 +1,28 @@
+# 依赖
+node_modules/
+dist/
+dist-ssr/
+
+# 测试与缓存
+coverage/
+*.local
+
+# 编辑器
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+
+# 本地工具配置(个人权限设置,不入库)
+.claude/
+
+# Tauri / Rust
+src-tauri/target/
+src-tauri/gen/
+
+# 内置 ffmpeg 二进制(由脚本下载,不入库)
+src-tauri/binaries/
+
+# 日志
+*.log
+npm-debug.log*

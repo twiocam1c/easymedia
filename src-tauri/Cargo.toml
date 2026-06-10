@@ -1,0 +1,25 @@
+[package]
+name = "easymedia"
+version = "0.1.0"
+description = "面向普通人的 FFmpeg 任务导向桌面工具"
+edition = "2021"
+rust-version = "1.77"
+
+[lib]
+name = "easymedia_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tauri-plugin-dialog = "2"
+tauri-plugin-opener = "2"
+tauri-plugin-shell = "2"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[features]
+# 默认无自定义协议
+default = []
